@@ -1,0 +1,73 @@
+<h1 align="center">🏠 Hostel Management System</h1>
+
+<p align="center">
+  A role-based operations platform for hostel students and wardens, with permissions enforced at the database layer.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+</p>
+
+---
+
+## 📖 Overview
+
+Hostel operations involve multiple roles — students, wardens, and admins — each of whom should see and touch different data. Rather than trusting the frontend to hide the wrong buttons, this system encodes the permission model directly into the database so it can't be bypassed.
+
+## ✨ Key Features
+
+- 🔐 **Three-role permission matrix** (student / warden / admin) enforced via **Supabase Row Level Security (RLS)** — access control lives in the database, not just the UI
+- 📊 **Interactive analytics dashboard** for wardens — occupancy, complaints, and activity at a glance
+- 🧑‍🎓 Student-facing portal for room details, complaints, and requests
+- 🛡️ Zero data leakage between roles by design, not by convention
+
+## 🏗️ Architecture
+
+```
+┌───────────────────┐
+│  React + TypeScript │
+│      Frontend        │
+└──────────┬──────────┘
+           ▼
+    ┌──────────────┐
+    │   Supabase    │
+    │  Auth + RLS    │  ◄── permission matrix enforced here
+    └──────────────┘
+```
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript |
+| Styling | Tailwind CSS |
+| Backend / Auth / DB | Supabase (PostgreSQL + RLS) |
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/hackerstudent29/MSAJCE-LORIN.git
+cd MSAJCE-LORIN
+
+npm install
+npm run dev
+```
+
+Set your Supabase credentials in `.env`:
+```
+VITE_SUPABASE_URL=your_project_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
+```
+
+## 📌 Roadmap
+
+- [ ] Complaint status notifications
+- [ ] Leave/outing request workflow
+- [ ] Mobile-responsive warden dashboard
+
+---
+
+<p align="center">Built by <a href="https://github.com/hackerstudent29">Ramanathan S.</a></p>
