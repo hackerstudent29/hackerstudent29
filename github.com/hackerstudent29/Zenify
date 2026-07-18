@@ -1,0 +1,90 @@
+<h1 align="center">🎵 Music Streaming Platform</h1>
+
+<p align="center">
+  A full-stack music streaming app with AI-powered discovery, synchronized lyrics, and gapless playback across web and mobile.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Web_Audio_API-FF6B6B?style=for-the-badge&logo=webaudioapi&logoColor=white"/>
+</p>
+
+---
+
+## 📖 Overview
+
+This project explores what a personalized, AI-native listening experience feels like — recommendations that adapt to taste, lyrics that stay in sync, and playback that never stutters between tracks, whether you're on the web app or the Flutter mobile client.
+
+## ✨ Key Features
+
+- 🤖 **AI-powered music discovery** — recommendations driven by listening patterns rather than static genre tags
+- 🎤 **Synchronized lyrics** that scroll in time with playback
+- 🎨 **Dynamic UI personalization** — the interface adapts visually based on the currently playing track
+- 🔊 **High-performance audio engine** built on the Web Audio API for **gapless playback** — no dead air between songs
+- 📱 Shared playback experience across the Next.js web app and Flutter mobile client
+
+## 🏗️ Architecture
+
+```
+┌─────────────┐     ┌──────────────┐
+│  Next.js Web │     │ Flutter Mobile│
+└──────┬──────┘     └───────┬──────┘
+       │                    │
+       └─────────┬──────────┘
+                  ▼
+          ┌──────────────┐
+          │   Fastify     │
+          │   API Layer   │
+          └───────┬──────┘
+                  ▼
+          ┌──────────────┐
+          │    Prisma     │
+          │  (DB access)  │
+          └──────────────┘
+```
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Web Frontend | Next.js |
+| Mobile | Flutter |
+| Backend | Fastify |
+| ORM | Prisma |
+| Audio Engine | Web Audio API |
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/hackerstudent29/Zenify.git
+cd Zenify
+
+# Backend
+cd server
+npm install
+npx prisma migrate dev
+npm run dev
+
+# Web frontend
+cd ../web
+npm install
+npm run dev
+
+# Mobile
+cd ../mobile
+flutter pub get
+flutter run
+```
+
+## 📌 Roadmap
+
+- [ ] Collaborative playlists
+- [ ] Offline playback caching on mobile
+- [ ] Lyrics editor/contribution mode
+
+---
+
+<p align="center">Built by <a href="https://github.com/hackerstudent29">Ramanathan S.</a></p>
