@@ -1,12 +1,10 @@
 <h1 align="center">Hi 👋, I'm Ramanathan S.</h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&text=Backend%20%7C%20Full%20Stack%20Developer&fontAlign=50&fontAlignY=38&fontSize=42&desc=Java%20•%20Spring%20Boot%20•%20React%20•%20AI%20Applications&descAlign=50&descAlignY=60" width="100%"/>
+  <img src="https://raw.githubusercontent.com/hackerstudent29/hackerstudent29/main/banner.svg" width="100%"/>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C4FF&center=true&vCenter=true&width=700&lines=Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI+Applications+and+RAG+Systems;Always+Learning+Something+New"/>
-</p>
+<p align="center"><i>a custom-built banner — an animated API response, because that's what I spend my days shipping</i></p>
 
 <p align="center">
   <a href="https://github.com/hackerstudent29"><img src="https://img.shields.io/github/followers/hackerstudent29?style=for-the-badge&color=00C4FF&labelColor=1a1a2e"/></a>
@@ -177,6 +175,16 @@ Role-based platform for students and wardens with an analytics dashboard; three-
 
 ---
 
+## 🧊 3D Contribution Calendar
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hackerstudent29/hackerstudent29/profile-3d-contrib/profile-night-rainbow.svg" width="90%"/>
+</p>
+
+> ⚡ Zero setup — see **"Enable the 3D Calendar"** below.
+
+---
+
 ## 🐍 Contribution Snake
 
 <p align="center">
@@ -226,6 +234,52 @@ Role-based platform for students and wardens with an analytics dashboard; three-
 ## 💡 Quote
 
 > "Build software that solves real problems, write clean code, and keep learning every day."
+
+---
+
+## ⚙️ Setup Notes (for me, not visitors)
+
+<details>
+<summary>Click to expand — one-time setup for the animated pieces</summary>
+
+**Custom banner**
+Upload `banner.svg` to the root of the `hackerstudent29/hackerstudent29` repo. The README already points to it via raw GitHub URL — no action needed beyond uploading the file.
+
+**Enable the 3D Calendar**
+1. Add `.github/workflows/3d-contrib.yml` (contents below) to this repo.
+2. Enable read/write workflow permissions under Settings → Actions → General.
+3. Run the workflow once manually from the Actions tab — it generates a `profile-3d-contrib` branch the README already links to.
+
+```yaml
+name: 3D Profile Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: hackerstudent29
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: profile-3d-contrib
+          build_dir: profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+**Enable the Snake Animation**
+See `snake.yml` — same process as above, target branch `output` instead.
+
+</details>
 
 ---
 
