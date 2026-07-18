@@ -1,220 +1,242 @@
-\#
-```{=html}
-<h1 align="center">
-```
-Hi 👋, I'm Ramanathan S.
-```{=html}
-</h1>
-```
-```{=html}
+<h1 align="center">Hi 👋, I'm Ramanathan S.</h1>
+
 <p align="center">
-```
-`<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&text=Backend%20%7C%20Full%20Stack%20Developer&fontAlign=50&fontAlignY=38&fontSize=42&desc=Java%20•%20Spring%20Boot%20•%20React%20•%20AI%20Applications&descAlign=50&descAlignY=60"/>`{=html}
-```{=html}
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&text=Backend%20%7C%20Full%20Stack%20Developer&fontAlign=50&fontAlignY=38&fontSize=42&desc=Java%20•%20Spring%20Boot%20•%20React%20•%20AI%20Applications&descAlign=50&descAlignY=60" width="100%"/>
 </p>
-```
-```{=html}
+
 <p align="center">
-```
-`<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C4FF&center=true&vCenter=true&width=700&lines=Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI+Applications+and+RAG+Systems;Always+Learning+Something+New"/>`{=html}
-```{=html}
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C4FF&center=true&vCenter=true&width=700&lines=Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI+Applications+and+RAG+Systems;Always+Learning+Something+New"/>
 </p>
-```
-```{=html}
+
 <p align="center">
-```
-`<a href="https://github.com/hackerstudent29">`{=html}`<img src="https://img.shields.io/github/followers/hackerstudent29?style=for-the-badge"/>`{=html}`</a>`{=html}
-`<a href="https://linkedin.com/in/ramanathan-s-it">`{=html}`<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>`{=html}`</a>`{=html}
-`<a href="mailto:ramanathanb86@gmail.com">`{=html}`<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>`{=html}`</a>`{=html}
-```{=html}
+  <a href="https://github.com/hackerstudent29"><img src="https://img.shields.io/github/followers/hackerstudent29?style=for-the-badge&color=00C4FF&labelColor=1a1a2e"/></a>
+  <a href="https://linkedin.com/in/ramanathan-s-it"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:ramanathanb86@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=hackerstudent29&style=for-the-badge&color=00C4FF&label=PROFILE+VIEWS"/>
 </p>
-```
 
-------------------------------------------------------------------------
-
-# 👨‍💻 About Me
-
--   🎓 B.Tech Information Technology --- Mohamed Sathak A.J. College of
-    Engineering
--   📍 Chennai, India
--   💻 Backend & Full Stack Developer
--   🤖 Interested in AI, RAG Systems, Real-time Applications
--   🌱 Currently learning Distributed Systems, Cloud & System Design
--   🎯 Looking for Software Development opportunities
-
-------------------------------------------------------------------------
-
-# 🚀 Current Focus
-
--   Java & Spring Boot
--   React & Next.js
--   AI-powered Applications
--   PostgreSQL Performance
--   Cloud Deployment
--   System Design
-
-------------------------------------------------------------------------
-
-# 🛠 Tech Stack
-
-## Languages
-
-![Java](https://skillicons.dev/icons?i=java)
-![TS](https://skillicons.dev/icons?i=ts)
-![JS](https://skillicons.dev/icons?i=js)
-![Python](https://skillicons.dev/icons?i=python)
-
-## Backend
-
-![Spring](https://skillicons.dev/icons?i=spring)
-![Node](https://skillicons.dev/icons?i=nodejs)
-![Express](https://skillicons.dev/icons?i=express)
-![FastAPI](https://skillicons.dev/icons?i=fastapi)
-
-## Frontend
-
-![React](https://skillicons.dev/icons?i=react)
-![Next](https://skillicons.dev/icons?i=nextjs)
-![Tailwind](https://skillicons.dev/icons?i=tailwind)
-
-## Database
-
-![Postgres](https://skillicons.dev/icons?i=postgres)
-![Supabase](https://skillicons.dev/icons?i=supabase)
-![Prisma](https://skillicons.dev/icons?i=prisma)
-
-## Tools
-
-![Docker](https://skillicons.dev/icons?i=docker)
-![AWS](https://skillicons.dev/icons?i=aws)
-![Git](https://skillicons.dev/icons?i=git)
-![Postman](https://skillicons.dev/icons?i=postman)
-![Vercel](https://skillicons.dev/icons?i=vercel)
-
-------------------------------------------------------------------------
-
-# 💼 Experience
-
-### Backend Intern --- CodeAlpha
-
--   Designed secure backend APIs
--   Built scalable server architecture
--   Worked with authentication and database modelling
-
-### Java Full Stack Intern --- Apollo Computer Education
-
--   Developed Spring Boot REST APIs
--   Implemented JPA & PostgreSQL
--   Connected backend with frontend applications
-
-------------------------------------------------------------------------
-
-# 🌟 Featured Projects
-
-## 🔎 RAG College Assistant
-
-AI-powered college assistant using FastAPI, Pinecone, BM25 Hybrid
-Search, Gemini and OpenAI Embeddings.
-
-## 🎵 Music Streaming Platform
-
-Modern streaming application featuring synchronized lyrics, personalized
-recommendations and a custom audio engine.
-
-## 🎟 Event Booking Platform
-
-Enterprise booking system with WebSockets, Spring Boot, PostgreSQL and
-secure payment integration.
-
-## 🏟 Turf Booking Platform
-
-Interactive sports venue booking system with PostgreSQL business logic
-and map-based discovery.
-
-## 🏠 Hostel Management System
-
-Role-based management system using Supabase Row Level Security and
-analytics dashboards.
-
-------------------------------------------------------------------------
-
-# 📊 GitHub Analytics
-
-```{=html}
 <p align="center">
-```
-`<img height="170" src="https://github-readme-stats.vercel.app/api?username=hackerstudent29&show_icons=true&theme=tokyonight&hide_border=true"/>`{=html}
-`<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackerstudent29&layout=compact&theme=tokyonight&hide_border=true"/>`{=html}
-```{=html}
+  <img src="https://img.shields.io/badge/📍_Chennai,_India-1a1a2e?style=flat-square" />
+  <img src="https://img.shields.io/badge/🎓_B.Tech_IT-1a1a2e?style=flat-square" />
+  <img src="https://img.shields.io/badge/🎯_Open_to_Opportunities-brightgreen?style=flat-square" />
 </p>
-```
-```{=html}
+
+---
+
+## 👨‍💻 About Me
+
+- 🎓 B.Tech Information Technology — Mohamed Sathak A.J. College of Engineering (CGPA: 7.75)
+- 📍 Based in Chennai, India
+- 💻 Backend & Full Stack Developer
+- 🤖 Interested in AI, RAG systems, real-time applications
+- 🌱 Currently learning distributed systems, cloud & system design
+- 🎯 Looking for software development opportunities
+
+---
+
+## 🚀 Current Focus
+
+<div align="center">
+
+| 🔧 Backend | ⚛️ Frontend | 🤖 AI | ☁️ Cloud |
+|:---:|:---:|:---:|:---:|
+| Java & Spring Boot | React & Next.js | RAG Systems | AWS / Vercel |
+| Node.js & FastAPI | Tailwind CSS | Gemini / OpenAI Embeddings | Docker |
+| PostgreSQL Performance | Framer Motion | Vector Search (Pinecone) | System Design |
+
+</div>
+
+---
+
+## 🛠 Tech Stack
+
 <p align="center">
-```
-`<img src="https://github-readme-streak-stats.herokuapp.com/?user=hackerstudent29&theme=tokyonight&hide_border=true"/>`{=html}
-```{=html}
+  <b>Languages</b><br/>
+  <img src="https://skillicons.dev/icons?i=java,ts,js,python"/>
 </p>
-```
-```{=html}
+
 <p align="center">
-```
-`<img src="https://github-readme-activity-graph.vercel.app/graph?username=hackerstudent29&theme=tokyo-night"/>`{=html}
-```{=html}
+  <b>Backend</b><br/>
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,fastapi"/>
 </p>
-```
 
-------------------------------------------------------------------------
-
-# 🏆 GitHub Trophies
-
-```{=html}
 <p align="center">
-```
-`<img src="https://github-profile-trophy.vercel.app/?username=hackerstudent29&theme=algolia&no-frame=true&column=4"/>`{=html}
-```{=html}
+  <b>Frontend</b><br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs"/>
 </p>
-```
 
-------------------------------------------------------------------------
-
-# 📋 Profile Summary
-
-```{=html}
 <p align="center">
-```
-`<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hackerstudent29&theme=github_dark"/>`{=html}
-```{=html}
+  <b>Database</b><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,prisma"/>
 </p>
-```
 
-------------------------------------------------------------------------
-
-# 💡 Quote
-
-> "Build software that solves real problems, write clean code, and keep
-> learning every day."
-
-------------------------------------------------------------------------
-
-# 📫 Contact
-
--   📧 **Email:** ramanathanb86@gmail.com
--   💼 **LinkedIn:** https://linkedin.com/in/ramanathan-s-it
--   💻 **GitHub:** https://github.com/hackerstudent29
-
-------------------------------------------------------------------------
-
-```{=html}
 <p align="center">
-```
-`<img src="https://komarev.com/ghpvc/?username=hackerstudent29&style=for-the-badge"/>`{=html}
-```{=html}
+  <b>Tools</b><br/>
+  <img src="https://skillicons.dev/icons?i=docker,aws,git,postman,vercel"/>
 </p>
-```
-```{=html}
+
+---
+
+## 💼 Experience
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏢 Backend Intern
+**CodeAlpha** · Remote · Feb 2026 – Mar 2026
+- Designed secure backend APIs
+- Built scalable server architecture
+- Worked with authentication and database modelling
+
+</td>
+<td width="50%" valign="top">
+
+### 🏢 Java Full Stack Intern
+**Apollo Computer Education** · Chennai · Jan 2026 – Feb 2026
+- Developed Spring Boot REST APIs
+- Implemented JPA & PostgreSQL
+- Connected backend with frontend applications
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌟 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔎 RAG College Assistant
+`Python · FastAPI · Pinecone · Next.js · Gemini 2.0 Flash`
+
+AI-powered college assistant ingesting 280+ pages of data, using hybrid semantic (OpenAI embeddings) + BM25 search with a cross-encoder reranker — cutting token consumption by 90%+.
+
+</td>
+<td width="50%" valign="top">
+
+### 🎵 Music Streaming Platform
+`Next.js · Fastify · Prisma · Flutter · Web Audio API`
+
+Streaming app with AI-powered music discovery, synchronized lyrics, dynamic UI personalization, and a custom gapless audio engine across web and mobile.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎟 Event Booking Platform
+`React · Spring Boot · Node.js · Socket.IO · PostgreSQL`
+
+Enterprise booking system with a dedicated Node payment microservice (Razorpay), real-time seat reservation via WebSockets, and database-level locking.
+
+</td>
+<td width="50%" valign="top">
+
+### 🏟 Edge-Deployed Venue Booking
+`React 19 · TanStack Start · Supabase · PostgreSQL · Leaflet`
+
+Edge-deployed sports turf booking app with map-based discovery; business rules enforced via PostgreSQL PL/pgSQL triggers for strict data consistency.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏠 Hostel Management System
+`React · TypeScript · Supabase · Tailwind`
+
+Role-based platform for students and wardens with an analytics dashboard; three-role permission matrix enforced via Supabase Row Level Security (RLS).
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Analytics
+
 <p align="center">
-```
-`<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=gradient"/>`{=html}
-```{=html}
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=hackerstudent29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackerstudent29&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e"/>
 </p>
-```
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hackerstudent29&theme=tokyonight&hide_border=true&background=1a1a2e"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hackerstudent29&theme=tokyo-night&hide_border=true&bg_color=1a1a2e"/>
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hackerstudent29/hackerstudent29/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+> ⚠️ This animation needs a one-time setup — see **"Enable the Snake Animation"** below.
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=hackerstudent29&theme=algolia&no-frame=true&column=4&margin-w=10&margin-h=10"/>
+</p>
+
+---
+
+## 📋 Profile Summary
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hackerstudent29&theme=github_dark"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hackerstudent29&theme=github_dark"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hackerstudent29&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hackerstudent29&theme=github_dark"/>
+</p>
+
+---
+
+## 🎓 Education
+
+<div align="center">
+
+| Institution | Detail |
+|---|---|
+| **Mohamed Sathak A.J. College of Engineering** | B.Tech, Information Technology — CGPA: 7.75 |
+| **Gurunanak Mat. Hr. Sec. School** | Computer Science Stream — Class 12: 66.17%, Class 10: 62.20% |
+
+</div>
+
+---
+
+## 💡 Quote
+
+> "Build software that solves real problems, write clean code, and keep learning every day."
+
+---
+
+## 📫 Contact
+
+<p align="center">
+  <a href="mailto:ramanathanb86@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/ramanathan-s-it"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/hackerstudent29"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=gradient&height=150" width="100%"/>
+</p>
