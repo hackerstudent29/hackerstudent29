@@ -1,0 +1,98 @@
+<h1 align="center">🔎 RAG College Assistant</h1>
+
+<p align="center">
+  A retrieval-augmented AI assistant that answers questions over 280+ pages of college documentation — with 90%+ lower token usage than naive RAG.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini_2.0_Flash-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+</p>
+
+---
+
+## 📖 Overview
+
+RAG College Assistant ingests 280+ pages of institutional documentation and lets users query it in natural language instead of digging through PDFs and handbooks. The core engineering challenge was retrieval **precision** — returning only the passages the model actually needs, so responses stay accurate and cheap to generate.
+
+## ✨ Key Features
+
+- 🔀 **Hybrid retrieval** — combines semantic search (OpenAI embeddings) with keyword-based BM25 search, so it catches both conceptual questions and exact-term lookups
+- 🎯 **Cross-encoder reranking** — a second-pass reranker filters the hybrid results down to only the most relevant chunks before they reach the LLM
+- 💰 **90%+ token reduction** — precise retrieval means the model only sees what it needs, cutting inference cost dramatically compared to naive "dump everything into context" RAG
+- ⚡ **Gemini 2.0 Flash** as the generation backend for fast, low-latency responses
+- 🖥️ **Next.js frontend** for a clean chat interface
+
+## 🏗️ Architecture
+
+```
+User Query
+   │
+   ▼
+┌─────────────────────────────┐
+│   Hybrid Retrieval Layer    │
+│  ┌───────────┐ ┌──────────┐ │
+│  │ Semantic  │ │  BM25    │ │
+│  │ (OpenAI   │ │ (keyword)│ │
+│  │ embeddings│ │          │ │
+│  │ + Pinecone│ │          │ │
+│  └─────┬─────┘ └────┬─────┘ │
+│        └──────┬─────┘       │
+│         Cross-Encoder       │
+│           Reranker          │
+└──────────────┬──────────────┘
+               ▼
+        Gemini 2.0 Flash
+               ▼
+          Final Answer
+```
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Backend API | FastAPI (Python) |
+| Vector Store | Pinecone |
+| Embeddings | OpenAI Embeddings |
+| Search | Hybrid: semantic + BM25 |
+| Reranking | Cross-encoder model |
+| LLM | Gemini 2.0 Flash |
+| Frontend | Next.js |
+
+## 🚀 Getting Started
+
+```bash
+# clone
+git clone https://github.com/hackerstudent29/ragmsajce.git
+cd ragmsajce
+
+# backend
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# frontend
+cd ../frontend
+npm install
+npm run dev
+```
+
+Create a `.env` file with your API keys:
+```
+OPENAI_API_KEY=your_key
+PINECONE_API_KEY=your_key
+GEMINI_API_KEY=your_key
+```
+
+## 📌 Roadmap
+
+- [ ] Multi-document source citations in responses
+- [ ] Streaming responses in the UI
+- [ ] Admin panel for document ingestion
+
+---
+
+<p align="center">Built by <a href="https://github.com/hackerstudent29">Ramanathan S.</a></p>
