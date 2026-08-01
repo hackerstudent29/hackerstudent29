@@ -1,16 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ramanathan S.</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hackerstudent29/hackerstudent29/main/banner.svg" width="100%"/>
-</p>
-
-<p align="center"><i>a custom-built banner — an animated API response, because that's what I spend my days shipping</i></p>
-
-<p align="center">
   <a href="https://github.com/hackerstudent29"><img src="https://img.shields.io/github/followers/hackerstudent29?style=for-the-badge&color=00C4FF&labelColor=1a1a2e"/></a>
   <a href="https://linkedin.com/in/ramanathan-s-it"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:ramanathanb86@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=hackerstudent29&style=for-the-badge&color=00C4FF&label=PROFILE+VIEWS"/>
 </p>
 
 <p align="center">
@@ -77,209 +70,62 @@
 
 ## 💼 Experience
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏢 Backend Intern
-**CodeAlpha** · Remote · Feb 2026 – Mar 2026
+**Backend Intern** — CodeAlpha · Remote · Feb 2026 – Mar 2026
 - Designed secure backend APIs
 - Built scalable server architecture
 - Worked with authentication and database modelling
 
-</td>
-<td width="50%" valign="top">
-
-### 🏢 Java Full Stack Intern
-**Apollo Computer Education** · Chennai · Jan 2026 – Feb 2026
+**Java Full Stack Intern** — Apollo Computer Education · Chennai · Jan 2026 – Feb 2026
 - Developed Spring Boot REST APIs
 - Implemented JPA & PostgreSQL
 - Connected backend with frontend applications
 
-</td>
-</tr>
-</table>
-
 ---
 
 ## 🌟 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
 
 ### 🔎 RAG College Assistant
 `Python · FastAPI · Pinecone · Next.js · Gemini 2.0 Flash`
 
 AI-powered college assistant ingesting 280+ pages of data, using hybrid semantic (OpenAI embeddings) + BM25 search with a cross-encoder reranker — cutting token consumption by 90%+.
 
-</td>
-<td width="50%" valign="top">
-
 ### 🎵 Music Streaming Platform
 `Next.js · Fastify · Prisma · Flutter · Web Audio API`
 
 Streaming app with AI-powered music discovery, synchronized lyrics, dynamic UI personalization, and a custom gapless audio engine across web and mobile.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
 ### 🎟 Event Booking Platform
 `React · Spring Boot · Node.js · Socket.IO · PostgreSQL`
 
 Enterprise booking system with a dedicated Node payment microservice (Razorpay), real-time seat reservation via WebSockets, and database-level locking.
 
-</td>
-<td width="50%" valign="top">
-
 ### 🏟 Edge-Deployed Venue Booking
 `React 19 · TanStack Start · Supabase · PostgreSQL · Leaflet`
 
 Edge-deployed sports turf booking app with map-based discovery; business rules enforced via PostgreSQL PL/pgSQL triggers for strict data consistency.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
 ### 🏠 Hostel Management System
 `React · TypeScript · Supabase · Tailwind`
 
 Role-based platform for students and wardens with an analytics dashboard; three-role permission matrix enforced via Supabase Row Level Security (RLS).
 
-</td>
-<td width="50%" valign="top">
-
-</td>
-</tr>
-</table>
-
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=hackerstudent29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e"/>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackerstudent29&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hackerstudent29&theme=tokyonight&hide_border=true&background=1a1a2e"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hackerstudent29&theme=tokyo-night&hide_border=true&bg_color=1a1a2e"/>
-</p>
-
----
-
-## 🧊 3D Contribution Calendar
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hackerstudent29/hackerstudent29/profile-3d-contrib/profile-night-rainbow.svg" width="90%"/>
-</p>
-
-> ⚡ Zero setup — see **"Enable the 3D Calendar"** below.
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hackerstudent29/hackerstudent29/output/github-contribution-grid-snake-dark.svg"/>
-</p>
-
-> ⚠️ This animation needs a one-time setup — see **"Enable the Snake Animation"** below.
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hackerstudent29&theme=algolia&no-frame=true&column=4&margin-w=10&margin-h=10"/>
-</p>
-
----
-
-## 📋 Profile Summary
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hackerstudent29&theme=github_dark"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hackerstudent29&theme=github_dark"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hackerstudent29&theme=github_dark"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hackerstudent29&theme=github_dark"/>
-</p>
-
 ---
 
 ## 🎓 Education
-
-<div align="center">
 
 | Institution | Detail |
 |---|---|
 | **Mohamed Sathak A.J. College of Engineering** | B.Tech, Information Technology — CGPA: 7.75 |
 | **Gurunanak Mat. Hr. Sec. School** | Computer Science Stream — Class 12: 66.17%, Class 10: 62.20% |
-
-</div>
-
----
-
-## 💡 Quote
-
-> "Build software that solves real problems, write clean code, and keep learning every day."
-
----
-
-## ⚙️ Setup Notes (for me, not visitors)
-
-<details>
-<summary>Click to expand — one-time setup for the animated pieces</summary>
-
-**Custom banner**
-Upload `banner.svg` to the root of the `hackerstudent29/hackerstudent29` repo. The README already points to it via raw GitHub URL — no action needed beyond uploading the file.
-
-**Enable the 3D Calendar**
-1. Add `.github/workflows/3d-contrib.yml` (contents below) to this repo.
-2. Enable read/write workflow permissions under Settings → Actions → General.
-3. Run the workflow once manually from the Actions tab — it generates a `profile-3d-contrib` branch the README already links to.
-
-```yaml
-name: 3D Profile Contribution Graph
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: hackerstudent29
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: profile-3d-contrib
-          build_dir: profile-3d-contrib
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Enable the Snake Animation**
-See `snake.yml` — same process as above, target branch `output` instead.
-
-</details>
 
 ---
 
@@ -289,8 +135,4 @@ See `snake.yml` — same process as above, target branch `output` instead.
   <a href="mailto:ramanathanb86@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://linkedin.com/in/ramanathan-s-it"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/hackerstudent29"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=gradient&height=150" width="100%"/>
 </p>
