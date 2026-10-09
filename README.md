@@ -1,125 +1,182 @@
-<h1 align="center">Ramanathan S.</h1>
+<!-- ======================== HEADER ======================== -->
 
 <p align="center">
-  <em>Information Technology Student · Software Engineer · Builder of Practical Systems</em>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:172554,100:0284C7&height=220&section=header&text=Ramanathan%20S.&fontSize=48&fontColor=F8FAFC&fontAlignY=36&desc=Software%20Engineering%20%7C%20Artificial%20Intelligence%20%7C%20Backend%20Systems&descSize=14&descAlignY=58&descColor=CBD5E1"
+    width="100%"
+    alt="Ramanathan S. — Software Engineering, Artificial Intelligence and Backend Systems"
+  />
 </p>
 
 <p align="center">
-  <a href="https://github.com/hackerstudent29">
-    <img src="https://img.shields.io/github/followers/hackerstudent29?style=for-the-badge&color=00C4FF&labelColor=1a1a2e"/>
-  </a>
   <a href="https://linkedin.com/in/ramanathan-s-it">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-1D4ED8?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  &nbsp;
   <a href="mailto:ramanathanb86@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-Get%20in%20touch-334155?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
+</p>
+
+<p align="center">
+  <em>
+    An Information Technology student devoted to the craft of software engineering,
+    the study of intelligent systems, and the art of turning ideas into useful applications.
+  </em>
 </p>
 
 ---
 
 ## About
 
-I am an Information Technology student at Mohamed Sathak A.J. College of Engineering, with a profound inclination towards the craft of software engineering.
+I am Ramanathan, an Information Technology student at Mohamed Sathak A.J. College of Engineering, with a keen inclination towards backend engineering, artificial intelligence, and the development of dependable software systems.
 
-My pursuits lie chiefly in **Java, backend systems, web technologies, automation, and artificial intelligence**. I endeavour to transmute abstract notions into practical software, with particular regard for systems that are useful beyond the confines of a classroom.
+My pursuits lie chiefly in **Java, system architecture, web technologies, and AI-driven applications**. I endeavour to transmute abstract notions into practical solutions, whilst continually refining my understanding of the principles that underpin well-engineered software.
 
-At present, I am delving into **distributed systems, cloud architecture, system design, and Retrieval-Augmented Generation**, whilst continuing to refine my foundations in software engineering.
+I am presently delving into **Retrieval-Augmented Generation (RAG), distributed systems, cloud architecture, and intelligent automation**.
 
 ---
 
 ## Present Pursuits
 
-My present work centres upon three principal areas:
-
-| Discipline | Current Endeavour |
-|:---:|:---|
-| **Software Engineering** | Java, Spring Boot, backend architecture and system design |
-| **Artificial Intelligence** | RAG, semantic retrieval, vector search and intelligent applications |
-| **Systems & Automation** | n8n, APIs, cloud infrastructure and distributed workflows |
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Software Engineering</h3>
+      <p>Java, Spring Boot, RESTful APIs, database design, and backend architecture.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Artificial Intelligence</h3>
+      <p>RAG pipelines, semantic retrieval, vector search, embeddings, and reranking.</p>
+    </td>
+    <td width="34%" valign="top">
+      <h3>Systems & Automation</h3>
+      <p>Distributed systems, cloud deployment, n8n workflows, and system design.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## Selected Work
 
-### Lorin AI — Institutional Intelligence
+### 01 — Lorin AI
+**Institutional Intelligence & Retrieval-Augmented Generation**
 
-`Python · FastAPI · Vector Search · BM25 · RAG · Next.js`
+`Python` · `FastAPI` · `Pinecone` · `OpenAI Embeddings` · `BM25` · `Next.js`
 
-An institutional intelligence system conceived to make college information readily accessible to students and parents. The system employs hybrid retrieval, semantic embeddings and reranking to reconcile natural-language queries with institutional knowledge.
+An institutional intelligence system conceived to make college information readily accessible to students and parents. It combines semantic retrieval, keyword-based search, and cross-encoder reranking to identify relevant information from institutional documents.
 
-### Zenify — Music Streaming Platform
+The underlying objective is to make information retrieval more precise, efficient, and useful than conventional keyword-dependent approaches.
 
-`Next.js · Fastify · Prisma · Flutter · Web Audio API`
+### 02 — Music Streaming Platform
+**Personalised Music Discovery & Audio Engineering**
 
-A music platform concerned with discovery, synchronised lyrics and personalised interaction, accompanied by a custom audio engine designed for a seamless listening experience across web and mobile.
+`Next.js` · `Fastify` · `Prisma` · `Flutter` · `Web Audio API`
 
-### Event Booking Platform
+A cross-platform music application exploring personalised discovery, synchronised lyrics, and dynamic interface customisation. Its custom audio engine is designed to support gapless playback across web and mobile environments.
 
-`React · Spring Boot · Node.js · Socket.IO · PostgreSQL`
+### 03 — Event Booking Platform
+**Transactional Booking & Real-Time Reservations**
 
-A booking system incorporating real-time seat reservation, transactional safeguards and a dedicated payment service. Database-level locking is employed to preserve consistency under concurrent requests.
+`React` · `Spring Boot` · `Node.js` · `Socket.IO` · `PostgreSQL`
 
-### Venue Booking System
+A booking platform designed around real-time seat reservations and reliable transaction processing. It incorporates WebSocket-based updates, database-level locking, and a dedicated payment service with Razorpay integration.
 
-`React · TanStack Start · Supabase · PostgreSQL · Leaflet`
+### 04 — Venue Booking System
+**Edge Deployment & Database-Enforced Business Rules**
 
-An edge-deployed venue-booking application with map-based discovery and database-enforced business rules, designed with consistency and reliability as first principles.
+`React 19` · `TanStack Start` · `Supabase` · `PostgreSQL` · `Leaflet`
 
-### Hostel Management System
-
-`React · TypeScript · Supabase · Tailwind CSS`
-
-A role-based management platform for students and wardens, featuring an administrative dashboard and a structured permission model enforced through PostgreSQL Row Level Security.
+A sports turf booking application featuring map-based venue discovery. Business rules are enforced through PostgreSQL triggers, placing data integrity at the foundation of the application rather than leaving it solely to the client interface.
 
 ---
 
 ## Technical Repertoire
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,ts,js,python,spring,nodejs,fastapi,react,nextjs,tailwind,postgres,supabase,prisma,docker,aws,git,postman,vercel"/>
+  <strong>Languages</strong>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=java,ts,js,python" alt="Java, TypeScript, JavaScript and Python"/>
+</p>
+
+<p align="center">
+  <strong>Backend & APIs</strong>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,fastapi" alt="Spring Boot, Node.js, Express and FastAPI"/>
+</p>
+
+<p align="center">
+  <strong>Frontend</strong>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs" alt="React, Next.js, Tailwind CSS and Three.js"/>
+</p>
+
+<p align="center">
+  <strong>Data & Infrastructure</strong>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,prisma,docker,aws,git,postman,vercel" alt="PostgreSQL, Supabase, Prisma, Docker, AWS, Git, Postman and Vercel"/>
+</p>
+
+<p align="center">
+  <em>
+    Beyond the tools themselves, my interest lies in understanding how the underlying
+    systems are designed, integrated, deployed, and maintained.
+  </em>
 </p>
 
 ---
 
-## Experience
+## Professional Experience
 
-**Backend Intern — CodeAlpha**  
-*Remote · February 2026 – March 2026*
+### Backend Intern
+**CodeAlpha** · Remote  
+*February 2026 – March 2026*
 
-Worked upon backend APIs, authentication, database modelling and server-side architecture, with an emphasis upon secure and maintainable implementations.
+- Designed backend APIs and contributed to server-side architecture.
+- Worked with authentication mechanisms and database modelling.
+- Explored practices for building secure and maintainable backend services.
 
-**Java Full Stack Intern — Apollo Computer Education**  
-*Chennai · January 2026 – February 2026*
+### Java Full Stack Intern
+**Apollo Computer Education** · Chennai  
+*January 2026 – February 2026*
 
-Developed RESTful services with Spring Boot, implemented JPA and PostgreSQL integrations, and connected backend services with frontend applications.
+- Developed RESTful APIs using Spring Boot.
+- Worked with JPA and PostgreSQL for persistence and data management.
+- Integrated backend services with frontend applications.
 
 ---
 
 ## Education
 
 **Mohamed Sathak A.J. College of Engineering**  
-B.Tech — Information Technology · CGPA: **7.75**
+B.Tech — Information Technology
 
 ---
 
-## GitHub
+## GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=hackerstudent29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackerstudent29&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=hackerstudent29&show_icons=true&hide_border=true&theme=transparent&rank_icon=github"
+    height="165"
+    alt="GitHub contribution and repository statistics"
+  />
 </p>
 
 ---
 
 <p align="center">
-  <em>“I remain an ardent student of the craft, ever seeking to give practical form to ideas of consequence.”</em>
+  <em>
+    I remain an ardent student of the craft, ever seeking to give practical form
+    to ideas of consequence.
+  </em>
 </p>
 
 <p align="center">
-  <a href="mailto:ramanathanb86@gmail.com">Email</a>
-  ·
-  <a href="https://linkedin.com/in/ramanathan-s-it">LinkedIn</a>
-  ·
   <a href="https://github.com/hackerstudent29">GitHub</a>
+  &nbsp; · &nbsp;
+  <a href="https://linkedin.com/in/ramanathan-s-it">LinkedIn</a>
+  &nbsp; · &nbsp;
+  <a href="mailto:ramanathanb86@gmail.com">Email</a>
 </p>
