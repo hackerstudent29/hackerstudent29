@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" fill="none">
+  <defs>
+    <linearGradient id="stackCardBg" x1="0" y1="0" x2="920" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#24131C"/>
+      <stop offset="100%" stop-color="#190B13"/>
+    </linearGradient>
+
+    <linearGradient id="pillClay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A1E2E"/>
+      <stop offset="100%" stop-color="#271420"/>
+    </linearGradient>
+
+    <filter id="clayPillShadow" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#FF2A54" flood-opacity="0.15"/>
+    </filter>
+
+    <clipPath id="stackClip">
+      <rect width="920" height="240" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+
+  <g clip-path="url(#stackClip)">
+    <rect width="920" height="240" rx="22" fill="url(#stackCardBg)" stroke="#FF4D6D" stroke-opacity="0.3" stroke-width="1.5"/>
+    <path d="M 30 1 L 890 1" stroke="#FFF0F3" stroke-opacity="0.25" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Section Title & Badge -->
+    <g transform="translate(36, 26)">
+      <text x="0" y="16" class="font-sans" font-size="16" font-weight="900" fill="#FFF0F3" letter-spacing="1">
+        ✦ THE CLAY TECH ARSENAL
+      </text>
+      <text x="250" y="15" class="font-mono" font-size="11" font-weight="500" fill="#FF758F">
+        [ SYSTEM ARCHITECTURE &amp; FULL-STACK SUITE ]
+      </text>
+    </g>
+
+    <!-- Group 1: Languages & Core (y: 62) -->
+    <g transform="translate(36, 62)">
+      <text x="0" y="18" class="font-mono" font-size="10.5" font-weight="700" fill="#E8A598" letter-spacing="1">LANGUAGES:</text>
+
+      <!-- Java -->
+      <g transform="translate(100, 0)">
+        <rect width="66" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="33" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Java</text>
+      </g>
+      <!-- Python -->
+      <g transform="translate(174, 0)">
+        <rect width="78" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="39" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Python</text>
+      </g>
+      <!-- TypeScript -->
+      <g transform="translate(260, 0)">
+        <rect width="102" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="51" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">TypeScript</text>
+      </g>
+      <!-- JavaScript -->
+      <g transform="translate(370, 0)">
+        <rect width="96" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="48" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">JavaScript</text>
+      </g>
+      <!-- Kotlin -->
+      <g transform="translate(474, 0)">
+        <rect width="70" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="35" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Kotlin</text>
+      </g>
+      <!-- Dart -->
+      <g transform="translate(552, 0)">
+        <rect width="64" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="32" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Dart</text>
+      </g>
+      <!-- SQL -->
+      <g transform="translate(624, 0)">
+        <rect width="62" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="31" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">SQL</text>
+      </g>
+    </g>
+
+    <!-- Group 2: Backend & AI (y: 104) -->
+    <g transform="translate(36, 104)">
+      <text x="0" y="18" class="font-mono" font-size="10.5" font-weight="700" fill="#E8A598" letter-spacing="1">BACKEND &amp; AI:</text>
+
+      <!-- Spring Boot -->
+      <g transform="translate(100, 0)">
+        <rect width="104" height="26" rx="10" fill="url(#pillClay)" stroke="#FF2A54" stroke-width="1.2" stroke-opacity="0.5" filter="url(#clayPillShadow)"/>
+        <text x="52" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFCCD5" text-anchor="middle">Spring Boot</text>
+      </g>
+      <!-- FastAPI -->
+      <g transform="translate(212, 0)">
+        <rect width="78" height="26" rx="10" fill="url(#pillClay)" stroke="#FF2A54" stroke-width="1.2" stroke-opacity="0.5" filter="url(#clayPillShadow)"/>
+        <text x="39" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFCCD5" text-anchor="middle">FastAPI</text>
+      </g>
+      <!-- Fastify -->
+      <g transform="translate(298, 0)">
+        <rect width="76" height="26" rx="10" fill="url(#pillClay)" stroke="#FF2A54" stroke-width="1.2" stroke-opacity="0.5" filter="url(#clayPillShadow)"/>
+        <text x="38" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFCCD5" text-anchor="middle">Fastify</text>
+      </g>
+      <!-- Node.js -->
+      <g transform="translate(382, 0)">
+        <rect width="78" height="26" rx="10" fill="url(#pillClay)" stroke="#FF2A54" stroke-width="1.2" stroke-opacity="0.5" filter="url(#clayPillShadow)"/>
+        <text x="39" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFCCD5" text-anchor="middle">Node.js</text>
+      </g>
+      <!-- Hybrid RAG -->
+      <g transform="translate(468, 0)">
+        <rect width="100" height="26" rx="10" fill="url(#pillClay)" stroke="#FFD166" stroke-width="1.2" stroke-opacity="0.6" filter="url(#clayPillShadow)"/>
+        <text x="50" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFD166" text-anchor="middle">Hybrid RAG</text>
+      </g>
+      <!-- Qdrant Vector -->
+      <g transform="translate(576, 0)">
+        <rect width="112" height="26" rx="10" fill="url(#pillClay)" stroke="#FFD166" stroke-width="1.2" stroke-opacity="0.6" filter="url(#clayPillShadow)"/>
+        <text x="56" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFD166" text-anchor="middle">Qdrant Vector</text>
+      </g>
+      <!-- WebSockets -->
+      <g transform="translate(696, 0)">
+        <rect width="104" height="26" rx="10" fill="url(#pillClay)" stroke="#2EC4B6" stroke-width="1.2" stroke-opacity="0.6" filter="url(#clayPillShadow)"/>
+        <text x="52" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#2EC4B6" text-anchor="middle">WebSockets</text>
+      </g>
+    </g>
+
+    <!-- Group 3: Frontend & Systems (y: 146) -->
+    <g transform="translate(36, 146)">
+      <text x="0" y="18" class="font-mono" font-size="10.5" font-weight="700" fill="#E8A598" letter-spacing="1">CLIENT &amp; UI:</text>
+
+      <!-- React 19 -->
+      <g transform="translate(100, 0)">
+        <rect width="84" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="42" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">React 19</text>
+      </g>
+      <!-- Next.js -->
+      <g transform="translate(192, 0)">
+        <rect width="78" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="39" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Next.js</text>
+      </g>
+      <!-- Flutter 3 -->
+      <g transform="translate(278, 0)">
+        <rect width="84" height="26" rx="10" fill="url(#pillClay)" stroke="#FF2A54" stroke-width="1.2" stroke-opacity="0.5" filter="url(#clayPillShadow)"/>
+        <text x="42" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFCCD5" text-anchor="middle">Flutter 3</text>
+      </g>
+      <!-- Tailwind CSS -->
+      <g transform="translate(370, 0)">
+        <rect width="102" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="51" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Tailwind CSS</text>
+      </g>
+      <!-- Three.js -->
+      <g transform="translate(480, 0)">
+        <rect width="82" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="41" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Three.js</text>
+      </g>
+      <!-- ExoPlayer DSP -->
+      <g transform="translate(570, 0)">
+        <rect width="116" height="26" rx="10" fill="url(#pillClay)" stroke="#FF2A54" stroke-width="1.2" stroke-opacity="0.5" filter="url(#clayPillShadow)"/>
+        <text x="58" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFCCD5" text-anchor="middle">ExoPlayer DSP</text>
+      </g>
+    </g>
+
+    <!-- Group 4: Data & Cloud (y: 188) -->
+    <g transform="translate(36, 188)">
+      <text x="0" y="18" class="font-mono" font-size="10.5" font-weight="700" fill="#E8A598" letter-spacing="1">DATA &amp; INFRA:</text>
+
+      <!-- PostgreSQL -->
+      <g transform="translate(100, 0)">
+        <rect width="100" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="50" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">PostgreSQL</text>
+      </g>
+      <!-- Redis -->
+      <g transform="translate(208, 0)">
+        <rect width="66" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="33" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Redis</text>
+      </g>
+      <!-- Supabase -->
+      <g transform="translate(282, 0)">
+        <rect width="86" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="43" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Supabase</text>
+      </g>
+      <!-- Prisma ORM -->
+      <g transform="translate(376, 0)">
+        <rect width="98" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="49" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Prisma ORM</text>
+      </g>
+      <!-- Docker -->
+      <g transform="translate(482, 0)">
+        <rect width="74" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="37" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Docker</text>
+      </g>
+      <!-- AWS RDS -->
+      <g transform="translate(564, 0)">
+        <rect width="84" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="42" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">AWS RDS</text>
+      </g>
+      <!-- Vercel Edge -->
+      <g transform="translate(656, 0)">
+        <rect width="96" height="26" rx="10" fill="url(#pillClay)" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.35" filter="url(#clayPillShadow)"/>
+        <text x="48" y="17" class="font-sans" font-size="11.5" font-weight="700" fill="#FFF0F3" text-anchor="middle">Vercel Edge</text>
+      </g>
+    </g>
+  </g>
+</svg>

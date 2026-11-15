@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" fill="none">
+  <defs>
+    <!-- Clay & Strawberry Gradients -->
+    <linearGradient id="bgCanvas" x1="0" y1="0" x2="960" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#140A0F"/>
+      <stop offset="50%" stop-color="#1B0E15"/>
+      <stop offset="100%" stop-color="#12080D"/>
+    </linearGradient>
+
+    <linearGradient id="clayCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#281520" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1C0E16" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="clayBorder" x1="0" y1="0" x2="960" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFCCD5" stop-opacity="0.35"/>
+      <stop offset="35%" stop-color="#FF4D6D" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3D1A2A" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="strawberryText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFF0F3"/>
+      <stop offset="45%" stop-color="#FFB3C1"/>
+      <stop offset="100%" stop-color="#FF2A54"/>
+    </linearGradient>
+
+    <linearGradient id="terracottaText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFCCD5"/>
+      <stop offset="60%" stop-color="#E8A598"/>
+      <stop offset="100%" stop-color="#D88273"/>
+    </linearGradient>
+
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#13080E"/>
+      <stop offset="100%" stop-color="#190B13"/>
+    </linearGradient>
+
+    <!-- Clay Drop Shadow & Bevel Filter -->
+    <filter id="clayShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.65"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#FF2A54" flood-opacity="0.12"/>
+    </filter>
+
+    <filter id="glowBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+
+    <clipPath id="heroClip">
+      <rect width="960" height="340" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Roboto, sans-serif;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.45; transform: scale(1) translate(0px, 0px); }
+      50% { opacity: 0.75; transform: scale(1.12) translate(15px, -10px); }
+    }
+
+    @keyframes pulseOrb2 {
+      0%, 100% { opacity: 0.35; transform: scale(1) translate(0px, 0px); }
+      50% { opacity: 0.65; transform: scale(1.18) translate(-20px, 15px); }
+    }
+
+    @keyframes cursorBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    @keyframes badgeLevitate {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+
+    .orb-1 {
+      animation: pulseGlow 9s ease-in-out infinite;
+      transform-origin: 180px 100px;
+    }
+
+    .orb-2 {
+      animation: pulseOrb2 11s ease-in-out infinite;
+      transform-origin: 820px 220px;
+    }
+
+    .cursor {
+      animation: cursorBlink 1s infinite;
+    }
+
+    .levitate {
+      animation: badgeLevitate 4s ease-in-out infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .orb-1, .orb-2, .cursor, .levitate {
+        animation: none;
+      }
+    }
+  </style>
+
+  <g clip-path="url(#heroClip)">
+    <!-- Canvas Base -->
+    <rect width="960" height="340" fill="url(#bgCanvas)"/>
+
+    <!-- Ambient Glowing Strawberry & Clay Orbs -->
+    <g filter="url(#glowBlur)">
+      <circle class="orb-1" cx="190" cy="90" r="130" fill="#FF2A54" opacity="0.55"/>
+      <circle class="orb-2" cx="800" cy="200" r="140" fill="#E8A598" opacity="0.4"/>
+      <circle cx="500" cy="290" r="100" fill="#FF758F" opacity="0.3"/>
+    </g>
+
+    <!-- Subtle Clay Grid Overlay -->
+    <g opacity="0.08" stroke="#FFCCD5" stroke-width="1">
+      <path d="M 0 60 L 960 60 M 0 120 L 960 120 M 0 180 L 960 180 M 0 240 L 960 240 M 0 300 L 960 300"/>
+      <path d="M 120 0 L 120 340 M 240 0 L 240 340 M 360 0 L 360 340 M 480 0 L 480 340 M 600 0 L 600 340 M 720 0 L 720 340 M 840 0 L 840 340"/>
+    </g>
+
+    <!-- Main Tactile Clay Card with 3D Depth -->
+    <rect x="28" y="24" width="904" height="292" rx="24" fill="url(#clayCard)" stroke="url(#clayBorder)" stroke-width="1.8" filter="url(#clayShadow)"/>
+
+    <!-- Inner Clay Top Bevel Highlight (Puffy look) -->
+    <path d="M 52 25 L 908 25" stroke="#FFF0F3" stroke-width="1.2" stroke-opacity="0.25" stroke-linecap="round"/>
+
+    <!-- Top Left: Live Status Pill -->
+    <g transform="translate(56, 50)">
+      <rect width="280" height="32" rx="16" fill="#2E1622" stroke="#5C2941" stroke-width="1.2"/>
+      <circle cx="20" cy="16" r="4.5" fill="#2EC4B6">
+        <animate attributeName="r" values="4;5.5;4" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="20" cy="16" r="8" fill="#2EC4B6" opacity="0.25">
+        <animate attributeName="r" values="7;11;7" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="36" y="20.5" class="font-mono" font-size="11.5" font-weight="600" fill="#FFF0F3" letter-spacing="0.5">ONLINE · ARCHITECTING · CHENNAI</text>
+    </g>
+
+    <!-- Top Right: Theme Pill Badge -->
+    <g transform="translate(680, 50)" class="levitate">
+      <rect width="224" height="32" rx="16" fill="#381B2B" stroke="#FF4D6D" stroke-width="1.2" stroke-opacity="0.5"/>
+      <text x="112" y="20.5" class="font-sans" font-size="12" font-weight="700" fill="#FFCCD5" text-anchor="middle" letter-spacing="0.8">🍓 CLAY &amp; STRAWBERRY</text>
+    </g>
+
+    <!-- Master Hero Typography: RAMANATHAN S. -->
+    <text x="56" y="142" class="font-sans" font-size="54" font-weight="900" fill="url(#strawberryText)" letter-spacing="-1.5">
+      RAMANATHAN S.
+    </text>
+
+    <!-- Subtitle / Identity Statement -->
+    <text x="58" y="178" class="font-sans" font-size="17" font-weight="600" fill="url(#terracottaText)" letter-spacing="0.2">
+      SOFTWARE ENGINEER <tspan fill="#FF4D6D">·</tspan> DISTRIBUTED SYSTEMS <tspan fill="#FF4D6D">·</tspan> RAG &amp; INSTITUTIONAL AI
+    </text>
+
+    <!-- Tactile Inset Console / Activity Box -->
+    <g transform="translate(56, 204)">
+      <!-- Box Frame -->
+      <rect width="848" height="84" rx="16" fill="url(#terminalBg)" stroke="#451F33" stroke-width="1.2"/>
+      <!-- Soft Inner Top Shadow -->
+      <path d="M 72 1 L 832 1" stroke="#000000" stroke-width="2" stroke-opacity="0.4"/>
+
+      <!-- Window Dots -->
+      <circle cx="24" cy="22" r="5" fill="#FF4D6D"/>
+      <circle cx="40" cy="22" r="5" fill="#FFD166"/>
+      <circle cx="56" cy="22" r="5" fill="#2EC4B6"/>
+
+      <!-- Terminal Line 1: Currently Building -->
+      <text x="80" y="26" class="font-mono" font-size="13" font-weight="500" fill="#E8A598">
+        <tspan fill="#FF4D6D" font-weight="700">✦ CURRENTLY CRAFTING:</tspan> <tspan fill="#FFF0F3" font-weight="700">Zenify</tspan> (Lossless 320kbps Music Client) <tspan fill="#FF758F">&amp;</tspan> <tspan fill="#FFF0F3" font-weight="700">Lorin AI</tspan> (Institutional RAG Engine)
+      </text>
+
+      <!-- Terminal Line 2: Stack Highlights -->
+      <text x="80" y="58" class="font-mono" font-size="12" font-weight="400" fill="#C9A8B6">
+        <tspan fill="#FF4D6D">↳ CORE STACK:</tspan> Java <tspan fill="#6E3D52">•</tspan> Spring Boot <tspan fill="#6E3D52">•</tspan> Python <tspan fill="#6E3D52">•</tspan> TypeScript <tspan fill="#6E3D52">•</tspan> Fastify <tspan fill="#6E3D52">•</tspan> Flutter <tspan fill="#6E3D52">•</tspan> PostgreSQL <tspan fill="#6E3D52">•</tspan> Qdrant
+      </text>
+
+      <!-- Blinking Cursor -->
+      <rect class="cursor" x="780" y="47" width="8" height="15" fill="#FF2A54" rx="1.5"/>
+    </g>
+  </g>
+</svg>

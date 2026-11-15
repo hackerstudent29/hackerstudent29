@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="150" viewBox="0 0 920 150" fill="none">
+  <defs>
+    <linearGradient id="soundstageBg" x1="0" y1="0" x2="920" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#24131C"/>
+      <stop offset="50%" stop-color="#1E0F17"/>
+      <stop offset="100%" stop-color="#170A11"/>
+    </linearGradient>
+
+    <linearGradient id="discGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF2A54"/>
+      <stop offset="50%" stop-color="#9E1B33"/>
+      <stop offset="100%" stop-color="#2B0E19"/>
+    </linearGradient>
+
+    <filter id="clayPlayerShadow" x="-5%" y="-10%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#FF2A54" flood-opacity="0.15"/>
+    </filter>
+
+    <clipPath id="playerClip">
+      <rect width="920" height="150" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+
+    @keyframes eqBar1 { 0%, 100% { height: 8px; y: 32px; } 50% { height: 38px; y: 2px; } }
+    @keyframes eqBar2 { 0%, 100% { height: 26px; y: 14px; } 50% { height: 10px; y: 30px; } }
+    @keyframes eqBar3 { 0%, 100% { height: 36px; y: 4px; } 50% { height: 16px; y: 24px; } }
+    @keyframes eqBar4 { 0%, 100% { height: 14px; y: 26px; } 50% { height: 38px; y: 2px; } }
+    @keyframes eqBar5 { 0%, 100% { height: 32px; y: 8px; } 50% { height: 12px; y: 28px; } }
+    @keyframes spinDisc { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+    .bar1 { animation: eqBar1 0.9s ease-in-out infinite; }
+    .bar2 { animation: eqBar2 0.75s ease-in-out infinite; }
+    .bar3 { animation: eqBar3 1.1s ease-in-out infinite; }
+    .bar4 { animation: eqBar4 0.8s ease-in-out infinite; }
+    .bar5 { animation: eqBar5 1.05s ease-in-out infinite; }
+
+    .disc-spin {
+      animation: spinDisc 8s linear infinite;
+      transform-origin: 75px 75px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bar1, .bar2, .bar3, .bar4, .bar5, .disc-spin {
+        animation: none;
+      }
+    }
+  </style>
+
+  <g clip-path="url(#playerClip)">
+    <!-- Base Clay Card -->
+    <rect width="920" height="150" rx="20" fill="url(#soundstageBg)" stroke="#FF4D6D" stroke-opacity="0.35" stroke-width="1.5" filter="url(#clayPlayerShadow)"/>
+    <path d="M 24 1 L 896 1" stroke="#FFF0F3" stroke-opacity="0.25" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Spinning 3D Vinyl / Artwork Showcase -->
+    <g transform="translate(0, 0)">
+      <!-- Outer Glow -->
+      <circle cx="75" cy="75" r="48" fill="#FF2A54" opacity="0.12"/>
+      <!-- Disc Body -->
+      <g class="disc-spin">
+        <circle cx="75" cy="75" r="44" fill="url(#discGrad)" stroke="#FF4D6D" stroke-width="1.5"/>
+        <circle cx="75" cy="75" r="34" fill="none" stroke="#FFCCD5" stroke-opacity="0.2" stroke-width="1"/>
+        <circle cx="75" cy="75" r="24" fill="none" stroke="#FFCCD5" stroke-opacity="0.25" stroke-width="1"/>
+        <!-- Disc Center Label -->
+        <circle cx="75" cy="75" r="14" fill="#170A11" stroke="#FF2A54" stroke-width="1.5"/>
+        <circle cx="75" cy="75" r="4" fill="#FFF0F3"/>
+      </g>
+    </g>
+
+    <!-- Track Info & Metadata -->
+    <g transform="translate(145, 30)">
+      <!-- Live Badge -->
+      <rect width="186" height="22" rx="11" fill="#361A28" stroke="#FF4D6D" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="12" cy="11" r="3.5" fill="#2EC4B6"/>
+      <text x="24" y="15" class="font-mono" font-size="9.5" font-weight="700" fill="#FFCCD5" letter-spacing="0.5">ACOUSTIC STAGE · ACTIVE</text>
+
+      <!-- Title & Audio Info -->
+      <text x="0" y="48" class="font-sans" font-size="20" font-weight="800" fill="#FFF0F3" letter-spacing="-0.5">
+        Zenify Audio Pipeline <tspan fill="#FF2A54" font-size="14" font-weight="600">· Lossless 320kbps Akamai CDN</tspan>
+      </text>
+
+      <!-- Syllable Sync & Tech Info -->
+      <text x="0" y="74" class="font-mono" font-size="12" font-weight="500" fill="#E8A598">
+        🎙️ Syllable-level TTML (Better Lyrics &amp; Unison) &nbsp;•&nbsp; ExoPlayer HTTP 206 Seeking &nbsp;•&nbsp; 0 Ads
+      </text>
+
+      <!-- Specs Chips -->
+      <text x="0" y="96" class="font-mono" font-size="11" font-weight="400" fill="#C9A8B6">
+        Flutter 3 <tspan fill="#6E3D52">|</tspan> Node.js Fastify <tspan fill="#6E3D52">|</tspan> WebSocket Democratic Rooms <tspan fill="#6E3D52">|</tspan> StudioFX 8D DSP
+      </text>
+    </g>
+
+    <!-- Animated Equalizer Bars on the Right -->
+    <g transform="translate(710, 52)">
+      <rect class="bar1" x="0" y="2" width="4" height="38" rx="2" fill="#FF2A54"/>
+      <rect class="bar2" x="8" y="14" width="4" height="26" rx="2" fill="#FF4D6D"/>
+      <rect class="bar3" x="16" y="4" width="4" height="36" rx="2" fill="#FF758F"/>
+      <rect class="bar4" x="24" y="26" width="4" height="14" rx="2" fill="#FFA8B8"/>
+      <rect class="bar5" x="32" y="8" width="4" height="32" rx="2" fill="#FFF0F3"/>
+      <rect class="bar2" x="40" y="14" width="4" height="26" rx="2" fill="#FF758F"/>
+      <rect class="bar1" x="48" y="2" width="4" height="38" rx="2" fill="#FF2A54"/>
+      <rect class="bar3" x="56" y="4" width="4" height="36" rx="2" fill="#FF4D6D"/>
+    </g>
+
+    <!-- Launch Player CTA -->
+    <g transform="translate(784, 55)">
+      <rect width="112" height="38" rx="14" fill="#FF2A54" stroke="#FFF0F3" stroke-width="1" stroke-opacity="0.3"/>
+      <text x="56" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFF0F3" text-anchor="middle" letter-spacing="0.5">LAUNCH ➔</text>
+    </g>
+  </g>
+</svg>
