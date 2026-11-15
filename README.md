@@ -1,431 +1,336 @@
- 
-<!-- =========================================================
-     RAMANATHAN S. — DEVELOPER PORTFOLIO
-     Visual direction: Dark editorial / Pink accent / Minimal
-     ========================================================= -->
-
-<!-- ======================== HERO ======================== -->
-
-<p align="center">
+<!-- ============================================================
+     RAMANATHAN S. — GITHUB PROFILE README
+     Art direction: dark editorial / product landing page / rose accent
+     Replace this file as the profile repository's README.md
+     ============================================================ --><!-- ============================ HERO ============================ --><p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&color=0:09090B,50:17131A,100:24141E&height=240&section=header&text=Ramanathan%20S.&fontSize=64&fontColor=FAFAFA&fontAlignY=40&desc=SOFTWARE%20ENGINEERING%20%E2%80%A2%20ARTIFICIAL%20INTELLIGENCE%20%E2%80%A2%20SYSTEMS&descSize=13&descAlignY=67&descColor=FDA4AF"
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:09090B,48:171218,100:2B1722&height=245&section=header&text=RAMANATHAN%20S.&fontSize=66&fontColor=FAF7F8&fontAlignY=42&desc=SOFTWARE%20ENGINEERING%20%2F%20ARTIFICIAL%20INTELLIGENCE%20%2F%20SYSTEMS&descSize=13&descAlignY=68&descColor=FF9AB5"
     width="100%"
-    alt="Ramanathan S. — Developer Portfolio"
+    alt="Ramanathan S. — Software Engineering, Artificial Intelligence and Systems"
   />
-</p>
-
-<p align="center">
+</p><p align="center">
+  <sub>INFORMATION TECHNOLOGY STUDENT &nbsp;·&nbsp; CHENNAI, INDIA</sub>
+</p><h1 align="center">I turn ideas into<br/>working software.</h1><p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3000&pause=1000&color=FF8FAB&center=true&vCenter=true&width=650&lines=Building+software+with+purpose.;Exploring+the+intersection+of+AI+and+engineering.;Turning+ideas+into+working+systems."
-    alt="Developer introduction"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&duration=2800&pause=900&color=FF9AB5&center=true&vCenter=true&width=620&lines=Backend+systems+that+make+sense.;AI+experiments+that+solve+real+problems.;Interfaces+with+thought+behind+them."
+    alt="Backend systems, AI experiments and thoughtful interfaces"
   />
-</p>
-
-<p align="center">
+</p><p align="center">
+  <a href="#selected-work">
+    <img src="https://img.shields.io/badge/01-EXPLORE%20MY%20WORK-FF9AB5?style=for-the-badge&labelColor=211820&color=FF9AB5" alt="Explore my work" />
+  </a>
+  &nbsp;
   <a href="https://linkedin.com/in/ramanathan-s-it">
-    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-18181B?style=flat&labelColor=18181B&color=FF8FAB&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/02-LINKEDIN-FF9AB5?style=for-the-badge&labelColor=211820&color=FF9AB5&logo=linkedin&logoColor=FF9AB5" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:ramanathanb86@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-GET%20IN%20TOUCH-18181B?style=flat&labelColor=18181B&color=FF8FAB&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/03-LET'S%20TALK-FF9AB5?style=for-the-badge&labelColor=211820&color=FF9AB5&logo=gmail&logoColor=FF9AB5" alt="Email" />
   </a>
-  &nbsp;
-  <a href="https://github.com/hackerstudent29">
-    <img src="https://img.shields.io/badge/GITHUB-EXPLORE-18181B?style=flat&labelColor=18181B&color=FF8FAB&logo=github&logoColor=white" />
-  </a>
+</p><p align="center">
+  <sub>JAVA&nbsp;&nbsp; / &nbsp;&nbsp;PYTHON&nbsp;&nbsp; / &nbsp;&nbsp;TYPESCRIPT&nbsp;&nbsp; / &nbsp;&nbsp;RAG&nbsp;&nbsp; / &nbsp;&nbsp;BACKEND ENGINEERING</sub>
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/B.TECH-INFORMATION%20TECHNOLOGY-18181B?style=flat-square&labelColor=18181B&color=29232A" />
-  <img src="https://img.shields.io/badge/FOCUS-BACKEND%20%26%20AI-18181B?style=flat-square&labelColor=18181B&color=29232A" />
-  <img src="https://img.shields.io/badge/BASED%20IN-INDIA-18181B?style=flat-square&labelColor=18181B&color=29232A" />
-</p>
-
-<br/>
-
-<p align="center">
-  <strong>MORE IDEAS THAN LINES OF CODE.</strong>
-</p>
-
-<p align="center">
-  An Information Technology student exploring software engineering,
-  intelligent systems, backend architecture, and the engineering
-  behind products that people actually use.
-</p>
-
-<br/>
-
----
-
-<!-- ======================== ABOUT ======================== -->
-
-<h2 align="center">01 &nbsp; / &nbsp; THE DEVELOPER</h2>
-
-<p align="center">
-  <sub>A LITTLE ABOUT WHAT I DO</sub>
-</p>
-
-I am Ramanathan, an Information Technology student at **Mohamed Sathak A.J. College of Engineering**.
-
-My interests lie at the intersection of software engineering, backend development, and artificial intelligence.
-
-I enjoy understanding how things work beneath the interface: how APIs communicate, how databases maintain consistency, how retrieval systems find useful information, and how different technologies come together to form a working product.
-
-Currently, I am exploring **Retrieval-Augmented Generation, semantic search, distributed systems, cloud architecture, and intelligent automation**.
-
-I believe good software is not merely about making something work. It is about making it reliable, understandable, and useful.
-
-<br/>
-
-<!-- ======================== CURRENT FOCUS ======================== -->
-
-<h2 align="center">02 &nbsp; / &nbsp; WHAT I'M EXPLORING</h2>
-
-<p align="center">
-  <sub>AREAS OF INTEREST & CONTINUOUS LEARNING</sub>
-</p>
-
-<table>
+<!-- ======================== QUICK PROFILE ======================== --><table>
   <tr>
-    <td width="50%" valign="top">
-      <p align="center">
-        <img src="https://img.shields.io/badge/01-FF8FAB?style=flat-square&labelColor=18181B&color=FF8FAB" />
-      </p>
-      <h3 align="center">Software Engineering</h3>
-      <p align="center">
-        Java · Spring Boot · REST APIs · Database Design · Backend Architecture
-      </p>
+    <td width="25%" align="center">
+      <sub>EDUCATION</sub><br/>
+      <strong>B.Tech IT</strong>
     </td>
-    <td width="50%" valign="top">
-      <p align="center">
-        <img src="https://img.shields.io/badge/02-FF8FAB?style=flat-square&labelColor=18181B&color=FF8FAB" />
-      </p>
-      <h3 align="center">Artificial Intelligence</h3>
-      <p align="center">
-        RAG · Embeddings · Vector Search · Semantic Retrieval · Reranking
-      </p>
+    <td width="25%" align="center">
+      <sub>INSTITUTION</sub><br/>
+      <strong>MSAJCE</strong>
+    </td>
+    <td width="25%" align="center">
+      <sub>MAIN INTEREST</sub><br/>
+      <strong>Backend + AI</strong>
+    </td>
+    <td width="25%" align="center">
+      <sub>BUILDING WITH</sub><br/>
+      <strong>Code & Curiosity</strong>
     </td>
   </tr>
+</table>
+<!-- ============================ ABOUT ============================ --><a id="about"></a>
+<p align="center">
+  <sub>01 &nbsp; / &nbsp; THE PERSON BEHIND THE CODE</sub>
+</p>
+<h2 align="center">Curiosity first. Engineering always.</h2><table>
   <tr>
-    <td width="50%" valign="top">
-      <p align="center">
-        <img src="https://img.shields.io/badge/03-FF8FAB?style=flat-square&labelColor=18181B&color=FF8FAB" />
+    <td width="60%" valign="top">
+      <p>
+        I'm <strong>Ramanathan</strong>, an Information Technology student at
+        <strong>Mohamed Sathak A.J. College of Engineering</strong>.
       </p>
-      <h3 align="center">Systems & Infrastructure</h3>
-      <p align="center">
-        Distributed Systems · PostgreSQL · Docker · Cloud Deployment
+      <p>
+        I'm drawn to the parts of software that make the whole product work:
+        APIs, databases, retrieval pipelines, application architecture, and the
+        decisions that turn a promising idea into a dependable system.
+      </p>
+      <p>
+        My work moves between backend development, AI-powered applications,
+        automation, and product experimentation. I like building things, testing
+        the assumptions behind them, and improving the engineering as I learn.
       </p>
     </td>
-    <td width="50%" valign="top">
-      <p align="center">
-        <img src="https://img.shields.io/badge/04-FF8FAB?style=flat-square&labelColor=18181B&color=FF8FAB" />
+    <td width="40%" valign="top">
+      <p><strong><sub>IN THE WORKSHOP RIGHT NOW</sub></strong></p>
+      <p>↳ Retrieval-Augmented Generation</p>
+      <p>↳ Semantic and hybrid search</p>
+      <p>↳ Backend architecture</p>
+      <p>↳ Distributed systems</p>
+      <p>↳ Cloud and workflow automation</p>
+    </td>
+  </tr>
+</table>
+<!-- ======================== ENGINEERING POV ======================== --><p align="center">
+  <sub>02 &nbsp; / &nbsp; HOW I LIKE TO BUILD</sub>
+</p>
+<h2 align="center">More than making it run.</h2><table>
+  <tr>
+    <td width="33%" valign="top">
+      <p><sub>01 — STRUCTURE</sub></p>
+      <h3>Think in systems.</h3>
+      <p>Understand the data flow, boundaries, failure points, and trade-offs before adding complexity.</p>
+    </td>
+    <td width="33%" valign="top">
+      <p><sub>02 — EXECUTION</sub></p>
+      <h3>Build for use.</h3>
+      <p>Turn concepts into practical applications with useful interfaces and dependable behaviour.</p>
+    </td>
+    <td width="34%" valign="top">
+      <p><sub>03 — ITERATION</sub></p>
+      <h3>Improve the details.</h3>
+      <p>Test, measure, debug, and revisit decisions instead of treating the first working version as the final one.</p>
+    </td>
+  </tr>
+</table>
+<!-- ============================ WORK ============================ --><a id="selected-work"></a>
+<p align="center">
+  <sub>03 &nbsp; / &nbsp; SELECTED WORK</sub>
+</p>
+<h2 align="center">Things I've been putting together.</h2>
+<p align="center"><sub>A selection of applications, experiments, and engineering problems.</sub></p><!-- FEATURE PROJECT --><table>
+  <tr>
+    <td colspan="2" valign="top">
+      <p>
+        <img src="https://img.shields.io/badge/FEATURED%20PROJECT-01-FF9AB5?style=flat-square&labelColor=211820&color=FF9AB5" alt="Featured project 01" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/AI%20%2F%20RETRIEVAL-SYSTEMS-211820?style=flat-square&labelColor=211820&color=FF9AB5" alt="AI and retrieval systems" />
       </p>
-      <h3 align="center">Automation & Development</h3>
-      <p align="center">
-        n8n · Python · TypeScript · Workflow Automation · Full Stack Development
+      <h2>Lorin AI</h2>
+      <h3>Institutional intelligence, grounded in information.</h3>
+      <p>
+        A college assistant designed to help students, parents, staff, and
+        visitors find institutional information. It combines semantic retrieval,
+        keyword search, and reranking to identify useful context from college
+        knowledge sources.
+      </p>
+      <p><strong>THE ENGINEERING</strong></p>
+      <p>
+        Hybrid retrieval &nbsp;·&nbsp; Vector search &nbsp;·&nbsp; BM25
+        &nbsp;·&nbsp; Reciprocal rank fusion &nbsp;·&nbsp; Reranking
+        &nbsp;·&nbsp; Confidence-based answering
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-211820?style=flat-square&logo=python&logoColor=FF9AB5" alt="Python" />
+        <img src="https://img.shields.io/badge/FastAPI-211820?style=flat-square&logo=fastapi&logoColor=FF9AB5" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Qdrant-211820?style=flat-square&logo=qdrant&logoColor=FF9AB5" alt="Qdrant" />
+        <img src="https://img.shields.io/badge/BM25-211820?style=flat-square&color=FF9AB5" alt="BM25" />
+        <img src="https://img.shields.io/badge/React-211820?style=flat-square&logo=react&logoColor=FF9AB5" alt="React" />
       </p>
     </td>
   </tr>
 </table>
-
-<br/>
-
----
-
-<!-- ======================== PROJECTS ======================== -->
-
-<h2 align="center">03 &nbsp; / &nbsp; SELECTED WORK</h2>
-
-<p align="center">
-  <sub>IDEAS, EXPERIMENTS & ENGINEERING</sub>
-</p>
-
-<p align="center">
-  Not just repositories. Each project is an exploration of a different
-  engineering problem.
-</p>
-
-<br/>
-
-### 01 — Lorin AI
-
-<p>
-  <img src="https://img.shields.io/badge/PROJECT-AI%20%26%20RAG-18181B?style=flat-square&labelColor=18181B&color=FF8FAB" />
-  <img src="https://img.shields.io/badge/STATUS-DEVELOPMENT-18181B?style=flat-square&labelColor=18181B&color=29232A" />
-</p>
-
-**Institutional Intelligence & Retrieval-Augmented Generation**
-
-An institutional intelligence assistant designed to make college information accessible to students, parents, and visitors.
-
-The system combines semantic retrieval, keyword search, reciprocal rank fusion, and reranking to retrieve relevant information from institutional knowledge sources.
-
-**Engineering focus**
-
-- Hybrid retrieval using dense and sparse search.
-- Vector search and semantic similarity.
-- Reranking and retrieval evaluation.
-- Confidence-based answer generation.
-- Backend API development and caching.
-
-`Python` `FastAPI` `Qdrant` `BM25` `RAG` `React`
-
----
-
-### 02 — Zenify
-
-<p>
-  <img src="https://img.shields.io/badge/PROJECT-MUSIC%20TECH-18181B?style=flat-square&labelColor=18181B&color=FF8FAB" />
-  <img src="https://img.shields.io/badge/PLATFORM-ANDROID%20%26%20WEB-18181B?style=flat-square&labelColor=18181B&color=29232A" />
-</p>
-
-**Music Discovery, Streaming & Audio Engineering**
-
-An experimental music streaming platform exploring personalised music discovery, synchronised lyrics, audio effects, and a carefully crafted native mobile experience.
-
-The project focuses on playback architecture, audio processing, user experience, and real-time features.
-
-**Engineering focus**
-
-- Custom audio playback experiences.
-- Lyrics synchronisation.
-- Audio effects and playback customisation.
-- Artist and album discovery.
-- Collaborative listening experiences.
-
-`Flutter` `Kotlin` `JavaScript` `Next.js` `Audio Engineering`
-
----
-
-### 03 — Event Booking Platform
-
-<p>
-  <img src="https://img.shields.io/badge/PROJECT-FULL%20STACK-18181B?style=flat-square&labelColor=18181B&color=FF8FAB" />
-  <img src="https://img.shields.io/badge/FOCUS-TRANSACTIONS-18181B?style=flat-square&labelColor=18181B&color=29232A" />
-</p>
-
-**Transactional Booking & Real-Time Reservations**
-
-A booking platform designed around real-time seat reservations and reliable transaction processing.
-
-The architecture explores WebSocket-based updates, database-level locking, and payment service integration.
-
-**Engineering focus**
-
-- Real-time reservation updates.
-- Database transaction management.
-- Seat availability and locking.
-- Payment integration.
-- Backend service architecture.
-
-`React` `Spring Boot` `Node.js` `Socket.IO` `PostgreSQL`
-
----
-
-### 04 — Venue Booking System
-
-<p>
-  <img src="https://img.shields.io/badge/PROJECT-WEB%20APPLICATION-18181B?style=flat-square&labelColor=18181B&color=FF8FAB" />
-  <img src="https://img.shields.io/badge/FOCUS-DATA%20INTEGRITY-18181B?style=flat-square&labelColor=18181B&color=29232A" />
-</p>
-
-**Edge Deployment & Database-Enforced Business Rules**
-
-A sports turf booking application featuring map-based venue discovery and database-enforced business rules.
-
-Its architecture explores the importance of placing data integrity at the database level rather than depending entirely on client-side validation.
-
-**Engineering focus**
-
-- Map-based venue discovery.
-- PostgreSQL triggers.
-- Database-level business constraints.
-- Booking workflows.
-- Modern web application architecture.
-
-`React 19` `TanStack Start` `Supabase` `PostgreSQL` `Leaflet`
-
-<br/>
-
----
-
-<!-- ======================== TECH STACK ======================== -->
-
-<h2 align="center">04 &nbsp; / &nbsp; TECHNICAL REPERTOIRE</h2>
-
-<p align="center">
-  <sub>TOOLS I USE, TECHNOLOGIES I EXPLORE</sub>
-</p>
-
-<h3 align="center">01 — Programming Languages</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,js,ts&theme=dark" />
-</p>
-
-<h3 align="center">02 — Backend & APIs</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,fastapi&theme=dark" />
-</p>
-
-<h3 align="center">03 — Frontend & Application Development</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,flutter&theme=dark" />
-</p>
-
-<h3 align="center">04 — Databases & Infrastructure</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,prisma,docker,aws&theme=dark" />
-</p>
-
-<h3 align="center">05 — Developer Tools</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,postman,vercel,linux,vscode&theme=dark" />
-</p>
-
-<br/>
-
----
-
-<!-- ======================== EXPERIENCE ======================== -->
-
-<h2 align="center">05 &nbsp; / &nbsp; EXPERIENCE</h2>
-
-<p align="center">
-  <sub>LEARNING BEYOND THE CLASSROOM</sub>
-</p>
-
-<table>
+<!-- TWO-UP PROJECTS --><table>
   <tr>
-    <td width="75%" valign="top">
+    <td width="50%" valign="top">
+      <p><img src="https://img.shields.io/badge/PROJECT%2002-MUSIC%20TECH-FF9AB5?style=flat-square&labelColor=211820&color=FF9AB5" alt="Project 02 — Music technology" /></p>
+      <h2>Zenify</h2>
+      <h3>A music experience built around playback.</h3>
+      <p>
+        An experimental music streaming platform exploring personalised
+        discovery, synchronised lyrics, audio effects, and a carefully crafted
+        mobile experience.
+      </p>
+      <p><strong>FOCUS</strong><br/>Playback architecture · Lyrics · Audio processing · Artist discovery · Collaborative listening</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-211820?style=flat-square&logo=flutter&logoColor=FF9AB5" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Kotlin-211820?style=flat-square&logo=kotlin&logoColor=FF9AB5" alt="Kotlin" />
+        <img src="https://img.shields.io/badge/Next.js-211820?style=flat-square&logo=nextdotjs&logoColor=FF9AB5" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Fastify-211820?style=flat-square&logo=fastify&logoColor=FF9AB5" alt="Fastify" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <p><img src="https://img.shields.io/badge/PROJECT%2003-REAL%20TIME-FF9AB5?style=flat-square&labelColor=211820&color=FF9AB5" alt="Project 03 — Real-time" /></p>
+      <h2>Event Booking Platform</h2>
+      <h3>Reservations without the race condition.</h3>
+      <p>
+        A booking platform designed around real-time seat reservations and
+        reliable transaction processing, with an emphasis on keeping booking
+        state consistent.
+      </p>
+      <p><strong>FOCUS</strong><br/>WebSocket updates · Database locking · Payment integration · Transaction processing</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-211820?style=flat-square&logo=react&logoColor=FF9AB5" alt="React" />
+        <img src="https://img.shields.io/badge/Spring%20Boot-211820?style=flat-square&logo=springboot&logoColor=FF9AB5" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/Socket.IO-211820?style=flat-square&logo=socketdotio&logoColor=FF9AB5" alt="Socket.IO" />
+        <img src="https://img.shields.io/badge/PostgreSQL-211820?style=flat-square&logo=postgresql&logoColor=FF9AB5" alt="PostgreSQL" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <p><img src="https://img.shields.io/badge/PROJECT%2004-DATABASE%20DESIGN-FF9AB5?style=flat-square&labelColor=211820&color=FF9AB5" alt="Project 04 — Database design" /></p>
+      <h2>Venue Booking System</h2>
+      <h3>Business rules belong close to the data.</h3>
+      <p>
+        A sports turf booking application with map-based venue discovery. It
+        explores PostgreSQL triggers and database-enforced constraints to keep
+        important business rules from depending only on the client interface.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/React%2019-211820?style=flat-square&logo=react&logoColor=FF9AB5" alt="React 19" />
+        <img src="https://img.shields.io/badge/TanStack-211820?style=flat-square&logo=tanstack&logoColor=FF9AB5" alt="TanStack" />
+        <img src="https://img.shields.io/badge/Supabase-211820?style=flat-square&logo=supabase&logoColor=FF9AB5" alt="Supabase" />
+        <img src="https://img.shields.io/badge/PostgreSQL-211820?style=flat-square&logo=postgresql&logoColor=FF9AB5" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Leaflet-211820?style=flat-square&logo=leaflet&logoColor=FF9AB5" alt="Leaflet" />
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ========================= TOOLKIT ========================= --><p align="center">
+  <sub>04 &nbsp; / &nbsp; THE TOOLKIT</sub>
+</p>
+<h2 align="center">A practical collection of tools.</h2>
+<p align="center"><sub>Technologies I work with or explore across my projects.</sub></p><table>
+  <tr>
+    <td width="28%" valign="top"><strong>LANGUAGES</strong><br/><sub>01</sub></td>
+    <td valign="top">
+      <img src="https://img.shields.io/badge/Java-211820?style=flat-square&logo=openjdk&logoColor=FF9AB5" alt="Java" />
+      <img src="https://img.shields.io/badge/Python-211820?style=flat-square&logo=python&logoColor=FF9AB5" alt="Python" />
+      <img src="https://img.shields.io/badge/TypeScript-211820?style=flat-square&logo=typescript&logoColor=FF9AB5" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/JavaScript-211820?style=flat-square&logo=javascript&logoColor=FF9AB5" alt="JavaScript" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>BACKEND</strong><br/><sub>02</sub></td>
+    <td valign="top">
+      <img src="https://img.shields.io/badge/Spring%20Boot-211820?style=flat-square&logo=springboot&logoColor=FF9AB5" alt="Spring Boot" />
+      <img src="https://img.shields.io/badge/Node.js-211820?style=flat-square&logo=nodedotjs&logoColor=FF9AB5" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express-211820?style=flat-square&logo=express&logoColor=FF9AB5" alt="Express" />
+      <img src="https://img.shields.io/badge/FastAPI-211820?style=flat-square&logo=fastapi&logoColor=FF9AB5" alt="FastAPI" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>FRONTEND</strong><br/><sub>03</sub></td>
+    <td valign="top">
+      <img src="https://img.shields.io/badge/React-211820?style=flat-square&logo=react&logoColor=FF9AB5" alt="React" />
+      <img src="https://img.shields.io/badge/Next.js-211820?style=flat-square&logo=nextdotjs&logoColor=FF9AB5" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Tailwind-211820?style=flat-square&logo=tailwindcss&logoColor=FF9AB5" alt="Tailwind CSS" />
+      <img src="https://img.shields.io/badge/Three.js-211820?style=flat-square&logo=threedotjs&logoColor=FF9AB5" alt="Three.js" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>DATA & CLOUD</strong><br/><sub>04</sub></td>
+    <td valign="top">
+      <img src="https://img.shields.io/badge/PostgreSQL-211820?style=flat-square&logo=postgresql&logoColor=FF9AB5" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Supabase-211820?style=flat-square&logo=supabase&logoColor=FF9AB5" alt="Supabase" />
+      <img src="https://img.shields.io/badge/Prisma-211820?style=flat-square&logo=prisma&logoColor=FF9AB5" alt="Prisma" />
+      <img src="https://img.shields.io/badge/Docker-211820?style=flat-square&logo=docker&logoColor=FF9AB5" alt="Docker" />
+      <img src="https://img.shields.io/badge/AWS-211820?style=flat-square&logo=amazonaws&logoColor=FF9AB5" alt="AWS" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>WORKFLOW</strong><br/><sub>05</sub></td>
+    <td valign="top">
+      <img src="https://img.shields.io/badge/Git-211820?style=flat-square&logo=git&logoColor=FF9AB5" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub-211820?style=flat-square&logo=github&logoColor=FF9AB5" alt="GitHub" />
+      <img src="https://img.shields.io/badge/Postman-211820?style=flat-square&logo=postman&logoColor=FF9AB5" alt="Postman" />
+      <img src="https://img.shields.io/badge/Vercel-211820?style=flat-square&logo=vercel&logoColor=FF9AB5" alt="Vercel" />
+    </td>
+  </tr>
+</table>
+<!-- ========================= EXPERIENCE ========================= --><p align="center">
+  <sub>05 &nbsp; / &nbsp; EXPERIENCE</sub>
+</p>
+<h2 align="center">Learning by contributing.</h2><table>
+  <tr>
+    <td width="22%" valign="top">
+      <p><strong>FEB — MAR<br/>2026</strong></p>
+      <img src="https://img.shields.io/badge/INTERNSHIP-01-FF9AB5?style=flat-square&labelColor=211820&color=FF9AB5" alt="Internship 01" />
+    </td>
+    <td valign="top">
       <h3>Backend Intern</h3>
-      <strong>CodeAlpha</strong> · Remote
-      <br/>
-      February 2026 – March 2026
-      <br/><br/>
-      Designed backend APIs, explored server-side architecture, worked with authentication mechanisms, and gained experience with database modelling and maintainable backend services.
-    </td>
-    <td width="25%" align="center" valign="middle">
-      <img src="https://img.shields.io/badge/ROLE-BACKEND-18181B?style=flat-square&labelColor=18181B&color=FF8FAB" />
+      <p><strong>CodeAlpha</strong> &nbsp;·&nbsp; Remote</p>
+      <p>Worked on backend APIs and server-side architecture, with exposure to authentication, database modelling, and maintainable service development.</p>
     </td>
   </tr>
   <tr>
-    <td width="75%" valign="top">
-      <h3>Java Full Stack Intern</h3>
-      <strong>Apollo Computer Education</strong> · Chennai
-      <br/>
-      January 2026 – February 2026
-      <br/><br/>
-      Developed RESTful APIs using Spring Boot, worked with JPA and PostgreSQL, and explored frontend-to-backend integration.
+    <td width="22%" valign="top">
+      <p><strong>JAN — FEB<br/>2026</strong></p>
+      <img src="https://img.shields.io/badge/INTERNSHIP-02-FF9AB5?style=flat-square&labelColor=211820&color=FF9AB5" alt="Internship 02" />
     </td>
-    <td width="25%" align="center" valign="middle">
-      <img src="https://img.shields.io/badge/ROLE-FULL%20STACK-18181B?style=flat-square&labelColor=18181B&color=FF8FAB" />
+    <td valign="top">
+      <h3>Java Full Stack Intern</h3>
+      <p><strong>Apollo Computer Education</strong> &nbsp;·&nbsp; Chennai</p>
+      <p>Developed REST APIs using Spring Boot, worked with JPA and PostgreSQL, and explored integration between frontend applications and backend services.</p>
     </td>
   </tr>
 </table>
-
-<br/>
-
----
-
-<!-- ======================== EDUCATION ======================== -->
-
-<h2 align="center">06 &nbsp; / &nbsp; EDUCATION</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/DEGREE-B.TECH-18181B?style=flat-square&labelColor=18181B&color=FF8FAB" />
-  <img src="https://img.shields.io/badge/DISCIPLINE-INFORMATION%20TECHNOLOGY-18181B?style=flat-square&labelColor=18181B&color=29232A" />
+<!-- ========================= EDUCATION ========================= --><p align="center">
+  <sub>06 &nbsp; / &nbsp; EDUCATION</sub>
 </p>
-
-<h3 align="center">Mohamed Sathak A.J. College of Engineering</h3>
-
-<p align="center">
-  Bachelor of Technology — Information Technology
+<h2 align="center">The foundation.</h2><p align="center">
+  <img src="https://img.shields.io/badge/B.TECH-INFORMATION%20TECHNOLOGY-FF9AB5?style=for-the-badge&labelColor=211820&color=FF9AB5" alt="B.Tech Information Technology" />
 </p>
-
-<br/>
-
----
-
-<!-- ======================== GITHUB ANALYTICS ======================== -->
-
-<h2 align="center">07 &nbsp; / &nbsp; GITHUB ACTIVITY</h2>
-
 <p align="center">
-  <sub>A SMALL GLIMPSE INTO MY DEVELOPMENT JOURNEY</sub>
+  <strong>Mohamed Sathak A.J. College of Engineering</strong><br/>
+  <sub>CHENNAI, TAMIL NADU, INDIA</sub>
 </p>
-
-<p align="center">
+<!-- ========================= GITHUB ========================= --><p align="center">
+  <sub>07 &nbsp; / &nbsp; GITHUB SIGNAL</sub>
+</p>
+<h2 align="center">A record of showing up.</h2>
+<p align="center"><sub>Repositories, languages, and contribution activity.</sub></p><p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=hackerstudent29&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF8FAB&text_color=D4D4D8&icon_color=FF8FAB&rank_icon=github"
-    height="175"
-    alt="GitHub statistics"
+    src="https://github-readme-stats.vercel.app/api?username=hackerstudent29&show_icons=true&hide_border=true&bg_color=0D0B0E&title_color=FF9AB5&text_color=E7DDE2&icon_color=FF9AB5&rank_icon=github"
+    height="170"
+    alt="GitHub statistics for hackerstudent29"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackerstudent29&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF8FAB&text_color=D4D4D8"
-    height="175"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackerstudent29&layout=compact&hide_border=true&bg_color=0D0B0E&title_color=FF9AB5&text_color=E7DDE2"
+    height="170"
     alt="Most used programming languages"
   />
-</p>
-
-<p align="center">
+</p><p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=hackerstudent29&hide_border=true&background=0D1117&ring=FF8FAB&fire=FF8FAB&currStreakLabel=FF8FAB&sideLabels=D4D4D8&dates=888888"
-    width="70%"
+    src="https://streak-stats.demolab.com?user=hackerstudent29&hide_border=true&background=0D0B0E&ring=FF9AB5&fire=FF9AB5&currStreakLabel=FF9AB5&sideLabels=E7DDE2&dates=8D8188"
+    width="72%"
     alt="GitHub contribution streak"
   />
-</p>
-
-<p align="center">
+</p><p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=hackerstudent29&bg_color=0D1117&color=FF8FAB&line=FF8FAB&point=FFFFFF&area=true&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=hackerstudent29&bg_color=0D0B0E&color=FF9AB5&line=FF9AB5&point=FFFFFF&area=true&hide_border=true"
     width="100%"
-    alt="GitHub contribution graph"
+    alt="GitHub contribution activity graph"
   />
 </p>
-
-<br/>
-
----
-
-<!-- ======================== CLOSING ======================== -->
-
-<h2 align="center">08 &nbsp; / &nbsp; THE NEXT CHAPTER</h2>
-
-<p align="center">
+<!-- ========================= OUTRO ========================= --><p align="center">
+  <sub>08 &nbsp; / &nbsp; WHAT COMES NEXT</sub>
+</p><p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=17&duration=3500&pause=1000&color=FF8FAB&center=true&vCenter=true&width=700&lines=Learn.+Build.+Break.+Understand.+Repeat.;Good+engineering+starts+with+curiosity."
-    alt="Closing statement"
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:211820,50:171218,100:09090B&height=185&section=footer&text=Still%20building.&fontSize=48&fontColor=FAF7F8&fontAlignY=43&desc=STAY%20CURIOUS.%20MAKE%20USEFUL%20THINGS.&descSize=12&descAlignY=70&descColor=FF9AB5"
+    width="100%"
+    alt="Still building — stay curious and make useful things"
   />
-</p>
-
-<p align="center">
-  I am still learning, still experimenting, and still building.
-  <br/>
-  There is always another system to understand and another idea to bring to life.
-</p>
-
-<br/>
-
-<p align="center">
+</p><p align="center">
   <a href="https://github.com/hackerstudent29">
-    <img src="https://img.shields.io/badge/EXPLORE%20MY%20GITHUB-18181B?style=for-the-badge&logo=github&logoColor=FF8FAB&labelColor=18181B&color=FF8FAB" />
+    <img src="https://img.shields.io/badge/EXPLORE%20GITHUB-FF9AB5?style=for-the-badge&labelColor=211820&color=FF9AB5&logo=github&logoColor=FF9AB5" alt="Explore GitHub" />
   </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/ramanathan-s-it">
+    <img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-FF9AB5?style=for-the-badge&labelColor=211820&color=FF9AB5&logo=linkedin&logoColor=FF9AB5" alt="Connect on LinkedIn" />
+  </a>
+</p><p align="center">
+  <sub>DESIGNED WITH INTENT &nbsp;·&nbsp; BUILT THROUGH CURIOSITY</sub>
 </p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/ramanathan-s-it">LINKEDIN</a>
-  &nbsp; · &nbsp;
-  <a href="mailto:ramanathanb86@gmail.com">EMAIL</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/hackerstudent29">GITHUB</a>
-</p>
-
-<p align="center">
-  <sub>DESIGNED WITH INTENT. BUILT THROUGH CURIOSITY.</sub>
-</p>
-
